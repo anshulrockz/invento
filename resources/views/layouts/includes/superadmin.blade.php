@@ -16,18 +16,43 @@
         </a>
         <ul class="sub-menu">
             <li class="nav-item  ">
-                <a href="{{ url('/under-construction') }}" class="nav-link ">
-                    <span class="title">Menu 1</span>
+                <a href="{{ url('/products') }}" class="nav-link ">
+                    <span class="title">Products</span>
                 </a>
             </li>
             <li class="nav-item  ">
-                <a href="{{ url('/under-construction') }}" class="nav-link ">
-                    <span class="title">Menu 2</span>
+                <a href="{{ url('/categories') }}" class="nav-link ">
+                    <span class="title">Categories</span>
                 </a>
             </li>
             <li class="nav-item  ">
-	            <a href="{{ url('/under-construction') }}" class="nav-link ">
-	                <span class="title">Menu 3</span>
+	            <a href="{{ url('/brands') }}" class="nav-link ">
+	                <span class="title">Brands</span>
+	            </a>
+	        </li>
+	        <li class="nav-item  ">
+	            <a href="{{ url('/manufacturers') }}" class="nav-link ">
+	                <span class="title">Manufacturers</span>
+	            </a>
+	        </li>
+	        <li class="nav-item  ">
+	            <a href="{{ url('/forms') }}" class="nav-link ">
+	                <span class="title">Forms</span>
+	            </a>
+	        </li>
+	        <li class="nav-item  ">
+	            <a href="{{ url('/units') }}" class="nav-link ">
+	                <span class="title">Units</span>
+	            </a>
+	        </li>
+	        <li class="nav-item  ">
+	            <a href="{{ url('/taxes') }}" class="nav-link ">
+	                <span class="title">Taxes</span>
+	            </a>
+	        </li>
+	        <li class="nav-item  ">
+	            <a href="{{ url('/opening-stocks') }}" class="nav-link ">
+	                <span class="title">Opening Stocks</span>
 	            </a>
 	        </li>
         </ul>

@@ -39,4 +39,13 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('/customers/view/{id}','CustomerController@view');
 	Route::get('/customers/delete/{id}','CustomerController@delete');
 	
+	//Products
+	Route::get('/products','ProductController@index');
+	Route::get('/products/add','ProductController@add');
+	Route::post('/products/add','ProductController@save');
+	Route::get('/products/edit/{id}','ProductController@edit');
+	Route::post('/products/edit/{id}','ProductController@update');
+	Route::get('/products/view/{id}','ProductController@view');
+	Route::get('/products/delete/{id}','ProductController@delete');
+	
 });
