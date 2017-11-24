@@ -31,8 +31,12 @@
                         <table class="table table-striped">
 						  <tbody>
 						  	<tr>
-						      <th>Generic Name</th>
+						      <th>Name</th>
 						      <td>ATENOLOL</td>
+						    </tr>
+						    <tr>
+						      <th>Model</th>
+						      <td>SKU</td>
 						    </tr>
 						    <tr>
 						      <th>Category</th>

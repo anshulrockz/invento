@@ -15,7 +15,7 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/products/view/1')}}">Mr. X</a>
+                    <a href="{{url('/products/view/1')}}">ATENOLOL</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
@@ -39,7 +39,7 @@
 	                            <div class="row">
                 					<div class="col-md-6">
 									    <div class="form-group">
-									      <label>*Generic Name:</label>
+									      <label>*Name:</label>
 									      <input type="text" class="form-control" name="generic_name" id="generic_name" value="{{ old('generic_name') }}" placeholder="Please Generic Name" required="">
 									    </div>
 									</div>
@@ -50,6 +50,25 @@
 										     <option>Select</option>
 										     <option value="medicine">Medicine</option>
 										 </select>
+									    </div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-6">
+									    <div class="form-group">
+									      <label>*Model:</label>
+									      <input type="text" class="form-control" name="model" id="model" value="{{ old('model') }}" placeholder="Please Enter Model" required="">
+									    </div>
+									</div>
+                					<div class="col-md-6">
+									    <div class="form-group">
+									      <label>*Form:</label>
+									      <select name="form" id="form" class="form-control">
+											    <option>Select</option>
+												<option value="tablet">TABLET</option>
+												<option value="capsule">CAPSULE</option>
+												<option value="liquid">LIQUID</option>
+											</select>
 									    </div>
 									</div>
 								</div>
@@ -114,24 +133,11 @@
 								<div class="row">
                 					<div class="col-md-6">
 									    <div class="form-group">
-									      <label>*Form:</label>
-									      <select name="form" id="form" class="form-control">
-											    <option>Select</option>
-												<option value="tablet">TABLET</option>
-												<option value="capsule">CAPSULE</option>
-												<option value="liquid">LIQUID</option>
-											</select>
-									    </div>
-									</div>
-									<div class="col-md-6">
-									    <div class="form-group">
 									      <label>*Pack Size:</label>
 									      <input type="text" class="form-control" name="pack_size" id="pack_size" value="{{ old('pack_size') }}" placeholder="Please Enter Pack Size" required="">
 									    </div>
 									</div>
-								</div>
-								<div class="row">
-                					<div class="col-md-6">
+									<div class="col-md-6">
 									    <div class="form-group">
 									      <label>*Notify Quantity:</label>
 									      <input type="text" class="form-control" name="notify_quantity" id="notify_quantity" value="{{ old('notify_quantity') }}" placeholder="Please Enter Notify Quantity" required="">
