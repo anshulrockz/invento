@@ -48,4 +48,67 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('/products/view/{id}','ProductController@view');
 	Route::get('/products/delete/{id}','ProductController@delete');
 	
+	//Categories
+	Route::get('/categories','CategoryController@index');
+	Route::get('/categories/add','CategoryController@add');
+	Route::post('/categories/add','CategoryController@save');
+	Route::get('/categories/edit/{id}','CategoryController@edit');
+	Route::post('/categories/edit/{id}','CategoryController@update');
+	Route::get('/categories/view/{id}','CategoryController@view');
+	Route::get('/categories/delete/{id}','CategoryController@delete');
+	
+	//Brands
+	Route::get('/brands','BrandController@index');
+	Route::get('/brands/add','BrandController@add');
+	Route::post('/brands/add','BrandController@save');
+	Route::get('/brands/edit/{id}','BrandController@edit');
+	Route::post('/brands/edit/{id}','BrandController@update');
+	Route::get('/brands/view/{id}','BrandController@view');
+	Route::get('/brands/delete/{id}','BrandController@delete');
+	
+	//Manufacturers
+	Route::get('/manufacturers','ManufacturerController@index');
+	Route::get('/manufacturers/add','ManufacturerController@add');
+	Route::post('/manufacturers/add','ManufacturerController@save');
+	Route::get('/manufacturers/edit/{id}','ManufacturerController@edit');
+	Route::post('/manufacturers/edit/{id}','ManufacturerController@update');
+	Route::get('/manufacturers/view/{id}','ManufacturerController@view');
+	Route::get('/manufacturers/delete/{id}','ManufacturerController@delete');
+	
+	//Forms
+	Route::get('/forms','FormController@index');
+	Route::get('/forms/add','FormController@add');
+	Route::post('/forms/add','FormController@save');
+	Route::get('/forms/edit/{id}','FormController@edit');
+	Route::post('/forms/edit/{id}','FormController@update');
+	Route::get('/forms/view/{id}','FormController@view');
+	Route::get('/forms/delete/{id}','FormController@delete');
+	
+	//Units
+	Route::get('/units','UnitController@index');
+	Route::get('/units/add','UnitController@add');
+	Route::post('/units/add','UnitController@save');
+	Route::get('/units/edit/{id}','UnitController@edit');
+	Route::post('/units/edit/{id}','UnitController@update');
+	Route::get('/units/view/{id}','UnitController@view');
+	Route::get('/units/delete/{id}','UnitController@delete');
+	
+	//Taxes
+	Route::get('/taxes','TaxController@index');
+	Route::get('/taxes/add','TaxController@add');
+	Route::post('/taxes/add','TaxController@save');
+	Route::get('/taxes/edit/{id}','TaxController@edit');
+	Route::post('/taxes/edit/{id}','TaxController@update');
+	Route::get('/taxes/view/{id}','TaxController@view');
+	Route::get('/taxes/delete/{id}','TaxController@delete');
+	
+	//Opening Stocks
+	Route::get('/opening-stocks','OpeningStockController@index');
+	Route::get('/opening-stocks/add','OpeningStockController@add');
+	Route::post('/opening-stocks/add','OpeningStockController@save');
+	Route::get('/opening-stocks/edit/{id}','OpeningStockController@edit');
+	Route::post('/opening-stocks/edit/{id}','OpeningStockController@update');
+	Route::get('/opening-stocks/view/{id}','OpeningStockController@view');
+	Route::get('/opening-stocks/delete/{id}','OpeningStockController@delete');
+	
 });

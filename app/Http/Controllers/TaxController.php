@@ -16,11 +16,11 @@ class TaxController extends Controller
     }
     public function index()
     {
-		return view('taxs/list');
+		return view('taxes/list');
     }
     public function add()
     {
-		return view('taxs/add');
+		return view('taxes/add');
     }
     public function save(Request $request)
     {
@@ -28,11 +28,11 @@ class TaxController extends Controller
     }
     public function view($id)
     {
-		return view('taxs/view');
+		return view('taxes/view');
     }
     public function edit($id)
     {
-		return view('taxs/edit');
+		return view('taxes/edit');
     }
     public function update(Request $request,$id)
     {

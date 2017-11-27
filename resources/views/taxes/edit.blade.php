@@ -11,11 +11,11 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/forms')}}">Forms</a>
+                    <a href="{{url('/taxes')}}">Taxes</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/forms/view/1')}}">TABLETS</a>
+                    <a href="{{url('/taxes/view/1')}}">GST</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
@@ -26,7 +26,7 @@
 		<div class="portlet light bordered">
             <div class="portlet-title">
                 <div class="caption">
-                    <span class="caption-subject font-blue-sharp bold uppercase">Edit Form</span>
+                    <span class="caption-subject font-blue-sharp bold uppercase">Edit Customer</span>
                 </div>
             </div>
             <div class="portlet-body">
@@ -36,18 +36,36 @@
                 		<form method="post" action="">
 	                        <div class="form-body">
 	                            {{ csrf_field() }}
-							    <div class="form-group">
-							      <label>*Name:</label>
-							      <input type="text" class="form-control" name="name" id="name" value="" placeholder="Please Enter Name" required="">
+                             <div class="form-group">
+						      	<label>*Name:</label>
+	                            <input type="text" class="form-control" name="name" id="name"  placeholder="Please Enter Name" required="">
 							    </div>
+								<div class="form-group">
+							      <label>*Rate(%):</label>
+							      <input type="number" class="form-control" name="rate" id="rate"  placeholder="Please Enter Rate" required="">
+							    </div>
+							    <div class="form-group">
+								 <label>Effective From:</label>
+								 <div class="input-group date">
+								   <input type="text" name="effective_from" id="effective_from"  placeholder="Please Enter Effective From" class="form-control" required=""><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+								 </div>
+								</div>
 							    <div class="form-group">
 							      <label>Description:</label>
 							      <textarea class="form-control" name="description" id="description" placeholder="Please Enter Description" ></textarea>
 							    </div>
+							    <div class="form-group">
+								 <label>*Status:</label>
+								 <select name="status" id="status" class="form-control">
+								     <option>Select</option>
+								     <option value="Active">Active</option>
+								     <option value="Inactive">Inactive</option>
+								 </select>
+								</div>
 	                        </div>
 	                        <div class="form-actions">
 	                            <button type="submit" class="btn blue">Update</button>
-	                            <button type="button" class="btn default" onclick="location.href = '{{url('/forms')}}';">Cancel</button>
+	                            <button type="button" class="btn default" onclick="location.href = '{{url('/customers')}}';">Cancel</button>
 	                        </div>
 	                    </form>
                 	</div>

@@ -11,11 +11,11 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/forms')}}">Forms</a>
+                    <a href="{{url('/categories')}}">Categories</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/forms/view/1')}}">TABLETS</a>
+                    <a href="{{url('/categories/view/1')}}">MEDICINE</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
@@ -26,7 +26,7 @@
 		<div class="portlet light bordered">
             <div class="portlet-title">
                 <div class="caption">
-                    <span class="caption-subject font-blue-sharp bold uppercase">Edit Form</span>
+                    <span class="caption-subject font-blue-sharp bold uppercase">Edit Customer</span>
                 </div>
             </div>
             <div class="portlet-body">
@@ -42,12 +42,12 @@
 							    </div>
 							    <div class="form-group">
 							      <label>Description:</label>
-							      <textarea class="form-control" name="description" id="description" placeholder="Please Enter Description" ></textarea>
+							      <textarea class="form-control" name="description" id="description" placeholder="Please Enter Description"></textarea>
 							    </div>
 	                        </div>
 	                        <div class="form-actions">
 	                            <button type="submit" class="btn blue">Update</button>
-	                            <button type="button" class="btn default" onclick="location.href = '{{url('/forms')}}';">Cancel</button>
+	                            <button type="button" class="btn default" onclick="location.href = '{{url('/categories')}}';">Cancel</button>
 	                        </div>
 	                    </form>
                 	</div>

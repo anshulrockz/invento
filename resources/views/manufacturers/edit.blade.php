@@ -11,11 +11,11 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/forms')}}">Forms</a>
+                    <a href="{{url('/manufacturers')}}">Manufacturers</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/forms/view/1')}}">TABLETS</a>
+                    <a href="{{url('/manufacturers/view/1')}}">Rat1</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
@@ -26,7 +26,7 @@
 		<div class="portlet light bordered">
             <div class="portlet-title">
                 <div class="caption">
-                    <span class="caption-subject font-blue-sharp bold uppercase">Edit Form</span>
+                    <span class="caption-subject font-blue-sharp bold uppercase">Edit Manufacturer</span>
                 </div>
             </div>
             <div class="portlet-body">
@@ -41,13 +41,13 @@
 							      <input type="text" class="form-control" name="name" id="name" value="" placeholder="Please Enter Name" required="">
 							    </div>
 							    <div class="form-group">
-							      <label>Description:</label>
-							      <textarea class="form-control" name="description" id="description" placeholder="Please Enter Description" ></textarea>
+							      <label>*Description:</label>
+							      <textarea class="form-control" name="description" id="description" placeholder="Please Enter Description" required=""></textarea>
 							    </div>
 	                        </div>
 	                        <div class="form-actions">
 	                            <button type="submit" class="btn blue">Update</button>
-	                            <button type="button" class="btn default" onclick="location.href = '{{url('/forms')}}';">Cancel</button>
+	                            <button type="button" class="btn default" onclick="location.href = '{{url('/manufacturers')}}';">Cancel</button>
 	                        </div>
 	                    </form>
                 	</div>

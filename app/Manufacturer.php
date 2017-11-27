@@ -8,7 +8,7 @@ use DB;
 use Auth;
 use Carbon\Carbon;
 
-class Manufacture extends Model
+class Manufacturer extends Model
 {
 	public function __construct()
     {

@@ -11,11 +11,11 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/products')}}">Products</a>
+                    <a href="{{url('/opening-stocks')}}">Opening Stocks</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <span class="active">ATENOLOL</span>
+                    <span class="active">AMOXICILLIN</span>
                 </li>
             </ul>
         </div>
@@ -24,55 +24,43 @@
                 <div class="portlet light bordered">
                     <div class="portlet-title" style="margin-bottom: 0px">
 		                <div class="caption">
-		                    <span class="caption-subject font-blue-sharp bold uppercase">ATENOLOL</span>
+		                    <span class="caption-subject font-blue-sharp bold uppercase">AMOXICILLIN</span>
 		                </div>
 		            </div>
                     <div class="portlet-body table-responsive" style="padding-top: 0px">
                         <table class="table table-striped">
 						  <tbody>
 						  	<tr>
-						      <th>Generic Name</th>
-						      <td>ATENOLOL</td>
+						      <th>Item</th>
+						      <td>AMOXICILLIN</td>
 						    </tr>
 						    <tr>
 						      <th>Category</th>
 						      <td>Medicine</td>
 						    </tr>
 						    <tr>
-						      <th>Price</th>
-						      <td>1.20</td>
+						      <th>Barcode</th>
+						      <td>000002</td>
 						    </tr>
 						    <tr>
-						      <th>Currency</th>
-						      <td>USD</td>
+						      <th>Expiry Date</th>
+						      <td>01-March-2019</td>
 						    </tr>
 						    <tr>
-						      <th>Strength</th>
-						      <td>50</td>
+						      <th>Quantity</th>
+						      <td>9000</td>
 						    </tr>
 						    <tr>
-						      <th>Unit</th>
-						      <td>MG</td>
+						      <th>Cost</th>
+						      <td>2.80</td>
 						    </tr>
 						    <tr>
-						      <th>Brand</th>
-						      <td>ATECON</td>
+						      <th>Amount</th>
+						      <td>25200.00</td>
 						    </tr>
 						    <tr>
-						      <th>Manufacturer</th>
-						      <td>Rat1</td>
-						    </tr>
-						    <tr>
-						      <th>Form</th>
-						      <td>TABLETS</td>
-						    </tr>
-						    <tr>
-						      <th>Pack Size</th>
-						      <td>300</td>
-						    </tr>
-						    <tr>
-						      <th>Notify Quantity</th>
-						      <td>100</td>
+						      <th>Date</th>
+						      <td>30-October-2017</td>
 						    </tr>
 						  </tbody>
 						</table>

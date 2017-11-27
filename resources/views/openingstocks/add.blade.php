@@ -11,7 +11,7 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/products')}}">Products</a>
+                    <a href="{{url('/opening-stocks')}}">Opening Stocks</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
@@ -22,122 +22,58 @@
 		<div class="portlet light bordered">
             <div class="portlet-title">
                 <div class="caption">
-                    <span class="caption-subject font-blue-sharp bold uppercase">Add Product</span>
+                    <span class="caption-subject font-blue-sharp bold uppercase">Add Opening Stock</span>
                 </div>
             </div>
             <div class="portlet-body">
                 <div class="row">
-                	<div class="col-md-12">
+                	<div class="col-md-6">
                 		@include('flashmessage')
                 		<form method="post" action="">
 	                        <div class="form-body">
 	                            {{ csrf_field() }}
-	                            <div class="row">
-                					<div class="col-md-6">
-									    <div class="form-group">
-									      <label>*Generic Name:</label>
-									      <input type="text" class="form-control" name="generic_name" id="generic_name" value="{{ old('generic_name') }}" placeholder="Please Generic Name" required="">
-									    </div>
-									</div>
-									<div class="col-md-6">
-									    <div class="form-group">
-									      <label>*Category:</label>
-									      <select name="blood_group" id="blood_group" class="form-control">
-										     <option>Select</option>
-										     <option value="medicine">Medicine</option>
-										 </select>
-									    </div>
-									</div>
+	                            <div class="form-group">
+								 <label>*Category:</label>
+								 <select name="category" id="category" class="form-control">
+								     <option>Select</option>
+								     <option value="Medicine">Medicine</option>
+								 </select>
 								</div>
-								<div class="row">
-                					<div class="col-md-6">
-									    <div class="form-group">
-									      <label>*Price:</label>
-									      <input type="text" class="form-control" name="price" id="price" value="{{ old('price') }}" placeholder="Please Enter Price" required="">
-									    </div>
-									</div>
-									<div class="col-md-6">
-									    <div class="form-group">
-									      	<label>*Currency:</label>
-											<select name="currency" id="currency" class="form-control">
-											    <option>Select</option>
-												<option value="USD">USD</option>
-												<option value="KES">KES</option>
-											</select>
-									    </div>
-									</div>
+								<div class="form-group">
+								 <label>*Item:</label>
+								 <select name="item" id="item" class="form-control">
+								     <option>Select</option>
+								     <option value="amoxicillin">AMOXICILLIN</option>
+								 </select>
 								</div>
-								<div class="row">
-                					<div class="col-md-6">
-									    <div class="form-group">
-									      <label>*Strength:</label>
-									      <input type="text" class="form-control" name="strength" id="strength" value="{{ old('strength') }}" placeholder="Please Enter Strength" required="">
-									    </div>
-									</div>
-									<div class="col-md-6">
-									    <div class="form-group">
-									     	<label>*Unit:</label>
-									    	<select name="unit" id="unit" class="form-control">
-											    <option>Select</option>
-												<option value="mg">MG</option>
-												<option value="pkt">PKT</option>
-											</select>
-									    </div>
-									</div>
+							    <div class="form-group">
+							      <label>Barcode:</label>
+							      <input type="text" class="form-control" name="barcode" id="barcode" value="{{ old('barcode') }}" placeholder="Please Enter Barcode" >
+							    </div>
+							    <div class="form-group">
+								 <label>*Expiry Date:</label>
+								 <div class="input-group date">
+								   <input type="text" name="expiry_date" id="expiry_date" value="{{ old('expiry_date') }}" placeholder="Please Enter Expiry Date" class="form-control" required=""><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+								 </div>
 								</div>
-								<div class="row">
-                					<div class="col-md-6">
-									    <div class="form-group">
-									    	<label>*Brand:</label>
-									    	<select name="brand" id="brand" class="form-control">
-											    <option>Select</option>
-												<option value="omepcon">OMEPCON</option>
-												<option value="atecon">ATECON</option>
-											</select>
-									    </div>
-									</div>
-									<div class="col-md-6">
-									    <div class="form-group">
-										    <label>*Manufacturer:</label>
-										    <select name="unit" id="unit" class="form-control">
-											    <option>Select</option>
-												<option value="rat1">RAT1</option>
-												<option value="rat2">RAT2</option>
-											</select>
-									    </div>
-									</div>
+							    <div class="form-group">
+							      <label>*Quantity:</label>
+							      <input type="number" class="form-control" name="quantity" id="quantity" value="{{ old('quantity') }}" placeholder="Please Enter Quantity" required="">
+							    </div>
+							    <div class="form-group">
+							      <label>*Cost:</label>
+							      <input type="number" class="form-control" name="cost" id="cost" value="{{ old('cost') }}" placeholder="Please Enter Cost" required="">
+							    </div>
+							    <div class="form-group">
+								 <label>*Date:</label>
+								 <div class="input-group date">
+								   <input type="text" name="date" id="date" value="{{ old('date') }}" placeholder="Please Enter Date" class="form-control" required=""><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+								 </div>
 								</div>
-								<div class="row">
-                					<div class="col-md-6">
-									    <div class="form-group">
-									      <label>*Form:</label>
-									      <select name="form" id="form" class="form-control">
-											    <option>Select</option>
-												<option value="tablet">TABLET</option>
-												<option value="capsule">CAPSULE</option>
-												<option value="liquid">LIQUID</option>
-											</select>
-									    </div>
-									</div>
-									<div class="col-md-6">
-									    <div class="form-group">
-									      <label>*Pack Size:</label>
-									      <input type="text" class="form-control" name="pack_size" id="pack_size" value="{{ old('pack_size') }}" placeholder="Please Enter Pack Size" required="">
-									    </div>
-									</div>
-								</div>
-								<div class="row">
-                					<div class="col-md-6">
-									    <div class="form-group">
-									      <label>*Notify Quantity:</label>
-									      <input type="text" class="form-control" name="notify_quantity" id="notify_quantity" value="{{ old('notify_quantity') }}" placeholder="Please Enter Notify Quantity" required="">
-									    </div>
-									</div>
-								</div>
-							</div>
+	                        </div>
 	                        <div class="form-actions">
 	                            <button type="submit" class="btn blue">Save</button>
-	                            <button type="button" class="btn default" onclick="location.href = '{{url('/products')}}';">Cancel</button>
+	                            <button type="button" class="btn default" onclick="location.href = '{{url('/opening-stocks')}}';">Cancel</button>
 	                        </div>
 	                    </form>
                 	</div>
@@ -148,4 +84,17 @@
     <!-- END CONTENT BODY -->
 </div>
 <!-- END CONTENT -->
+<script type='text/javascript'>
+$(function(){
+    var nowDate = new Date();
+    var today = new Date(nowDate.getFullYear(), nowDate.getMonth(), nowDate.getDate(), 0, 0, 0, 0); 
+    $('.input-group.date').datepicker({
+        calendarWeeks: true,
+        todayHighlight: true,
+        autoclose: true,
+        format: "dd-MM-yyyy",
+        //startDate: today
+    });
+});
+</script>
 @endsection

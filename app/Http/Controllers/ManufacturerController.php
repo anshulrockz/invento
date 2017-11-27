@@ -6,21 +6,21 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use DB;
 use Auth;
-use App\Manufacture;
+use App\Manufacturer;
 
-class ManufactureController extends Controller
+class ManufacturerController extends Controller
 {
     public function __construct()
     {
-		$this->manufacture = new Manufacture();
+		$this->manufacturer = new Manufacturer();
     }
     public function index()
     {
-		return view('manufactures/list');
+		return view('manufacturers/list');
     }
     public function add()
     {
-		return view('manufactures/add');
+		return view('manufacturers/add');
     }
     public function save(Request $request)
     {
@@ -28,11 +28,11 @@ class ManufactureController extends Controller
     }
     public function view($id)
     {
-		return view('manufactures/view');
+		return view('manufacturers/view');
     }
     public function edit($id)
     {
-		return view('manufactures/edit');
+		return view('manufacturers/edit');
     }
     public function update(Request $request,$id)
     {

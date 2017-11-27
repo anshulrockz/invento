@@ -148,8 +148,52 @@
 <treenode node="unbiased;PHP:Function Name;D:\xampp\htdocs\invento\vendor\fzaninotto\faker\src\Faker\Provider\Biased.php;f21;37;5;40;;;;vpos;;vinteger;;r&#10;Definition&#10;    unbiased()&#10;&#10;Description&#10;     &apos;unbiased&apos; creates an unbiased distribution by giving each value the same value of one.;;d4,38;;b2,5;;m">
 </treenode>
 </treenode>
+<treenode node="Brand;PHP:Class Name;D:\xampp\htdocs\invento\app\Brand.php;f0;10;1;16;;;;vpos;;vModel;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Brand.php;f8;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="BrandController;PHP:Class Name;D:\xampp\htdocs\invento\app\Http\Controllers\BrandController.php;f0;10;1;44;;;;vpos;;vController;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\BrandController.php;f11;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+<treenode node="add;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\BrandController.php;f11;20;5;23;;;;vpos;;v;;r;;d4,21;;b1,0;;m">
+</treenode>
+<treenode node="delete;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\BrandController.php;f11;40;5;43;;;;vpos;;v;;r;;d4,41;;b1,0;;mid;;p">
+</treenode>
+<treenode node="edit;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\BrandController.php;f11;32;5;35;;;;vpos;;v;;r;;d4,33;;b1,0;;mid;;p">
+</treenode>
+<treenode node="index;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\BrandController.php;f11;16;5;19;;;;vpos;;v;;r;;d4,17;;b1,0;;m">
+</treenode>
+<treenode node="save;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\BrandController.php;f11;24;5;27;;;;vpos;;v;;r;;d4,25;;b1,0;;mrequest;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\BrandController.php;f11;36;5;39;;;;vpos;;v;;r;;d4,37;;b1,0;;mrequest;;pid;;p">
+</treenode>
+<treenode node="view;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\BrandController.php;f11;28;5;31;;;;vpos;;v;;r;;d4,29;;b1,0;;mid;;p">
+</treenode>
+</treenode>
 <treenode node="BroadcastServiceProvider;PHP:Class Name;D:\xampp\htdocs\invento\app\Providers\BroadcastServiceProvider.php;f0;7;1;20;;;;vpos;;vServiceProvider;;c;;r;;d0,8;;b0,0;;m">
 <treenode node="boot;PHP:Function Name;D:\xampp\htdocs\invento\app\Providers\BroadcastServiceProvider.php;f11;14;5;19;;;;vpos;;vvoid;;r&#10;Definition&#10;    boot()&#10;&#10;Description&#10;     Bootstrap any application services.;;d4,15;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="Category;PHP:Class Name;D:\xampp\htdocs\invento\app\Category.php;f0;10;1;16;;;;vpos;;vModel;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Category.php;f8;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="CategoryController;PHP:Class Name;D:\xampp\htdocs\invento\app\Http\Controllers\CategoryController.php;f0;10;1;44;;;;vpos;;vController;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\CategoryController.php;f11;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+<treenode node="add;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\CategoryController.php;f11;20;5;23;;;;vpos;;v;;r;;d4,21;;b1,0;;m">
+</treenode>
+<treenode node="delete;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\CategoryController.php;f11;40;5;43;;;;vpos;;v;;r;;d4,41;;b1,0;;mid;;p">
+</treenode>
+<treenode node="edit;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\CategoryController.php;f11;32;5;35;;;;vpos;;v;;r;;d4,33;;b1,0;;mid;;p">
+</treenode>
+<treenode node="index;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\CategoryController.php;f11;16;5;19;;;;vpos;;v;;r;;d4,17;;b1,0;;m">
+</treenode>
+<treenode node="save;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\CategoryController.php;f11;24;5;27;;;;vpos;;v;;r;;d4,25;;b1,0;;mrequest;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\CategoryController.php;f11;36;5;39;;;;vpos;;v;;r;;d4,37;;b1,0;;mrequest;;pid;;p">
+</treenode>
+<treenode node="view;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\CategoryController.php;f11;28;5;31;;;;vpos;;v;;r;;d4,29;;b1,0;;mid;;p">
 </treenode>
 </treenode>
 <treenode node="ChangepasswordController;PHP:Class Name;D:\xampp\htdocs\invento\app\Http\Controllers\ChangepasswordController.php;f0;12;1;44;;;;vpos;;vController;;c;;r;;d0,13;;b0,0;;m">
@@ -454,6 +498,28 @@
 </treenode>
 <treenode node="ForgotPasswordController;PHP:Class Name;D:\xampp\htdocs\invento\app\Http\Controllers\Auth\ForgotPasswordController.php;f0;7;1;31;;;;vpos;;vController;;cSendsPasswordResetEmails;;c;;r;;d0,8;;b0,0;;m">
 <treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\Auth\ForgotPasswordController.php;f11;27;5;30;;;;vpos;;vvoid;;r&#10;Definition&#10;    __construct()&#10;&#10;Description&#10;     Create a new controller instance.;;d4,28;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="Form;PHP:Class Name;D:\xampp\htdocs\invento\app\Form.php;f0;10;1;16;;;;vpos;;vModel;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Form.php;f8;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="FormController;PHP:Class Name;D:\xampp\htdocs\invento\app\Http\Controllers\FormController.php;f0;10;1;44;;;;vpos;;vController;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\FormController.php;f11;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+<treenode node="add;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\FormController.php;f11;20;5;23;;;;vpos;;v;;r;;d4,21;;b1,0;;m">
+</treenode>
+<treenode node="delete;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\FormController.php;f11;40;5;43;;;;vpos;;v;;r;;d4,41;;b1,0;;mid;;p">
+</treenode>
+<treenode node="edit;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\FormController.php;f11;32;5;35;;;;vpos;;v;;r;;d4,33;;b1,0;;mid;;p">
+</treenode>
+<treenode node="index;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\FormController.php;f11;16;5;19;;;;vpos;;v;;r;;d4,17;;b1,0;;m">
+</treenode>
+<treenode node="save;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\FormController.php;f11;24;5;27;;;;vpos;;v;;r;;d4,25;;b1,0;;mrequest;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\FormController.php;f11;36;5;39;;;;vpos;;v;;r;;d4,37;;b1,0;;mrequest;;pid;;p">
+</treenode>
+<treenode node="view;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\FormController.php;f11;28;5;31;;;;vpos;;v;;r;;d4,29;;b1,0;;mid;;p">
 </treenode>
 </treenode>
 <treenode node="Generator;PHP:Class Name;D:\xampp\htdocs\invento\vendor\fzaninotto\faker\src\Faker\Generator.php;f0;191;1;280;;;;vpos;;v;;r&#10;Definition&#10;    class Generator&#10;&#10;Description&#10;     ;;d0,192;;b0,0;;m">
@@ -770,6 +836,28 @@
 <treenode node="isValid;PHP:Function Name;D:\xampp\htdocs\invento\vendor\fzaninotto\faker\src\Faker\Calculator\Luhn.php;f18;55;5;58;;;;vpos;;vbool;;r&#10;Definition&#10;    isValid($number)&#10;&#10;Description&#10;     Checks whether a number (partial number + check digit) is Luhn compliant&#10;&#10;Parameters:&#10;    string $number;;d4,56;;b1,5;;mstring $number;;p">
 </treenode>
 </treenode>
+<treenode node="Manufacturer;PHP:Class Name;D:\xampp\htdocs\invento\app\Manufacturer.php;f0;10;1;16;;;;vpos;;vModel;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Manufacturer.php;f8;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="ManufacturerController;PHP:Class Name;D:\xampp\htdocs\invento\app\Http\Controllers\ManufacturerController.php;f0;10;1;44;;;;vpos;;vController;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\ManufacturerController.php;f11;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+<treenode node="add;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\ManufacturerController.php;f11;20;5;23;;;;vpos;;v;;r;;d4,21;;b1,0;;m">
+</treenode>
+<treenode node="delete;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\ManufacturerController.php;f11;40;5;43;;;;vpos;;v;;r;;d4,41;;b1,0;;mid;;p">
+</treenode>
+<treenode node="edit;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\ManufacturerController.php;f11;32;5;35;;;;vpos;;v;;r;;d4,33;;b1,0;;mid;;p">
+</treenode>
+<treenode node="index;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\ManufacturerController.php;f11;16;5;19;;;;vpos;;v;;r;;d4,17;;b1,0;;m">
+</treenode>
+<treenode node="save;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\ManufacturerController.php;f11;24;5;27;;;;vpos;;v;;r;;d4,25;;b1,0;;mrequest;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\ManufacturerController.php;f11;36;5;39;;;;vpos;;v;;r;;d4,37;;b1,0;;mrequest;;pid;;p">
+</treenode>
+<treenode node="view;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\ManufacturerController.php;f11;28;5;31;;;;vpos;;v;;r;;d4,29;;b1,0;;mid;;p">
+</treenode>
+</treenode>
 <treenode node="Miscellaneous;PHP:Class Name;D:\xampp\htdocs\invento\vendor\fzaninotto\faker\src\Faker\Provider\Miscellaneous.php;f0;4;1;318;;;;vpos;;vBase;;c;;r;;d0,5;;b0,0;;m">
 <treenode node="boolean;PHP:Function Name;D:\xampp\htdocs\invento\vendor\fzaninotto\faker\src\Faker\Provider\Miscellaneous.php;f18;234;5;237;;;;vpos;;vbool;;r&#10;Definition&#10;    boolean($chanceOfGettingTrue = 50)&#10;&#10;Description&#10;     Return a boolean, true or false.&#10;&#10;Parameters:&#10;    int $chanceOfGettingTrue - Between 0 (always get false) and 100 (always get true);;d4,235;;b1,5;;mint $chanceOfGettingTrue;;p">
 </treenode>
@@ -796,6 +884,28 @@
 <treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\vendor\fzaninotto\faker\src\Faker\Guesser\Name.php;f11;13;5;16;;;;vpos;;v;;r&#10;Definition&#10;    __construct(\Faker\Generator $generator)&#10;&#10;Description&#10;     &#10;&#10;Parameters:&#10;    \Faker\Generator $generator;;d4,14;;b1,0;;m\Faker\Generator $generator;;p">
 </treenode>
 <treenode node="guessFormat;PHP:Function Name;D:\xampp\htdocs\invento\vendor\fzaninotto\faker\src\Faker\Guesser\Name.php;f11;23;5;154;;;;vpos;;vcallable;;r&#10;Definition&#10;    guessFormat($name, $size = null)&#10;&#10;Description&#10;     &#10;&#10;Parameters:&#10;    string $name&#10;    int|null $size - Length of field, if known;;d4,24;;b1,0;;mstring $name;;pint|null $size;;p">
+</treenode>
+</treenode>
+<treenode node="OpeningStock;PHP:Class Name;D:\xampp\htdocs\invento\app\OpeningStock.php;f0;10;1;16;;;;vpos;;vModel;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\OpeningStock.php;f8;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="OpeningStockController;PHP:Class Name;D:\xampp\htdocs\invento\app\Http\Controllers\OpeningStockController.php;f0;10;1;44;;;;vpos;;vController;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\OpeningStockController.php;f11;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+<treenode node="add;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\OpeningStockController.php;f11;20;5;23;;;;vpos;;v;;r;;d4,21;;b1,0;;m">
+</treenode>
+<treenode node="delete;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\OpeningStockController.php;f11;40;5;43;;;;vpos;;v;;r;;d4,41;;b1,0;;mid;;p">
+</treenode>
+<treenode node="edit;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\OpeningStockController.php;f11;32;5;35;;;;vpos;;v;;r;;d4,33;;b1,0;;mid;;p">
+</treenode>
+<treenode node="index;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\OpeningStockController.php;f11;16;5;19;;;;vpos;;v;;r;;d4,17;;b1,0;;m">
+</treenode>
+<treenode node="save;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\OpeningStockController.php;f11;24;5;27;;;;vpos;;v;;r;;d4,25;;b1,0;;mrequest;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\OpeningStockController.php;f11;36;5;39;;;;vpos;;v;;r;;d4,37;;b1,0;;mrequest;;pid;;p">
+</treenode>
+<treenode node="view;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\OpeningStockController.php;f11;28;5;31;;;;vpos;;v;;r;;d4,29;;b1,0;;mid;;p">
 </treenode>
 </treenode>
 <treenode node="Parsedown;PHP:Class Name;D:\xampp\htdocs\invento\vendor\erusev\parsedown\Parsedown.php;f0;15;1;1547;;;;vpos;;v;;r;;d0,16;;b0,0;;m">
@@ -1034,6 +1144,28 @@
 </treenode>
 <treenode node="SimpleTraitAsset;PHP:Class Name;D:\xampp\htdocs\invento\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\SimpleTraitAsset.php;f0;26;1;28;;;;vpos;;v;;r&#10;Definition&#10;    trait SimpleTraitAsset&#10;&#10;Description&#10;     A simple trait with no attached logic;;d0,27;;b0,0;;m">
 </treenode>
+<treenode node="Tax;PHP:Class Name;D:\xampp\htdocs\invento\app\Tax.php;f0;10;1;16;;;;vpos;;vModel;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Tax.php;f8;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="TaxController;PHP:Class Name;D:\xampp\htdocs\invento\app\Http\Controllers\TaxController.php;f0;10;1;44;;;;vpos;;vController;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\TaxController.php;f11;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+<treenode node="add;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\TaxController.php;f11;20;5;23;;;;vpos;;v;;r;;d4,21;;b1,0;;m">
+</treenode>
+<treenode node="delete;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\TaxController.php;f11;40;5;43;;;;vpos;;v;;r;;d4,41;;b1,0;;mid;;p">
+</treenode>
+<treenode node="edit;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\TaxController.php;f11;32;5;35;;;;vpos;;v;;r;;d4,33;;b1,0;;mid;;p">
+</treenode>
+<treenode node="index;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\TaxController.php;f11;16;5;19;;;;vpos;;v;;r;;d4,17;;b1,0;;m">
+</treenode>
+<treenode node="save;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\TaxController.php;f11;24;5;27;;;;vpos;;v;;r;;d4,25;;b1,0;;mrequest;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\TaxController.php;f11;36;5;39;;;;vpos;;v;;r;;d4,37;;b1,0;;mrequest;;pid;;p">
+</treenode>
+<treenode node="view;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\TaxController.php;f11;28;5;31;;;;vpos;;v;;r;;d4,29;;b1,0;;mid;;p">
+</treenode>
+</treenode>
 <treenode node="TestCase;PHP:Class Name;D:\xampp\htdocs\invento\tests\TestCase.php;f9;6;1;9;;;;vpos;;vBaseTestCase;;cCreatesApplication;;c;;r;;d0,7;;b0,0;;m">
 </treenode>
 <treenode node="Text;PHP:Class Name;D:\xampp\htdocs\invento\vendor\fzaninotto\faker\src\Faker\Provider\ar_JO\Text.php;f0;4;1;270;;D:\xampp\htdocs\invento\vendor\fzaninotto\faker\src\Faker\Provider\Text.php;f9;4;1;140;;;;vpos;;vText;;c;;r;;d0,5;;b0,0;;m">
@@ -1080,6 +1212,28 @@
 <treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\vendor\fzaninotto\faker\src\Faker\UniqueGenerator.php;f11;18;5;22;;;;vpos;;v;;r&#10;Definition&#10;    __construct(Generator $generator, $maxRetries = 10000)&#10;&#10;Description&#10;     &#10;&#10;Parameters:&#10;    Generator $generator&#10;    integer $maxRetries;;d4,19;;b1,0;;mGenerator $generator;;pinteger $maxRetries;;p">
 </treenode>
 <treenode node="__get;PHP:Function Name;D:\xampp\htdocs\invento\vendor\fzaninotto\faker\src\Faker\UniqueGenerator.php;f11;29;5;32;;;;vpos;;vmixed;;r&#10;Definition&#10;    __get($attribute)&#10;&#10;Description&#10;     Catch and proxy all generator calls but return only unique values&#10;&#10;Parameters:&#10;    string $attribute;;d4,30;;b1,0;;mstring $attribute;;p">
+</treenode>
+</treenode>
+<treenode node="Unit;PHP:Class Name;D:\xampp\htdocs\invento\app\Unit.php;f0;10;1;16;;;;vpos;;vModel;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Unit.php;f8;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+</treenode>
+<treenode node="UnitController;PHP:Class Name;D:\xampp\htdocs\invento\app\Http\Controllers\UnitController.php;f0;10;1;44;;;;vpos;;vController;;c;;r;;d0,11;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\UnitController.php;f11;12;5;15;;;;vpos;;v;;r;;d4,13;;b1,0;;m">
+</treenode>
+<treenode node="add;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\UnitController.php;f11;20;5;23;;;;vpos;;v;;r;;d4,21;;b1,0;;m">
+</treenode>
+<treenode node="delete;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\UnitController.php;f11;40;5;43;;;;vpos;;v;;r;;d4,41;;b1,0;;mid;;p">
+</treenode>
+<treenode node="edit;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\UnitController.php;f11;32;5;35;;;;vpos;;v;;r;;d4,33;;b1,0;;mid;;p">
+</treenode>
+<treenode node="index;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\UnitController.php;f11;16;5;19;;;;vpos;;v;;r;;d4,17;;b1,0;;m">
+</treenode>
+<treenode node="save;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\UnitController.php;f11;24;5;27;;;;vpos;;v;;r;;d4,25;;b1,0;;mrequest;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\UnitController.php;f11;36;5;39;;;;vpos;;v;;r;;d4,37;;b1,0;;mrequest;;pid;;p">
+</treenode>
+<treenode node="view;PHP:Function Name;D:\xampp\htdocs\invento\app\Http\Controllers\UnitController.php;f11;28;5;31;;;;vpos;;v;;r;;d4,29;;b1,0;;mid;;p">
 </treenode>
 </treenode>
 <treenode node="UnserializeExceptionArrayObjectAsset;PHP:Class Name;D:\xampp\htdocs\invento\vendor\doctrine\instantiator\tests\DoctrineTest\InstantiatorTestAsset\UnserializeExceptionArrayObjectAsset.php;f0;29;1;38;;;;vpos;;vArrayObject;;c;;r&#10;Definition&#10;    class UnserializeExceptionArrayObjectAsset extends ArrayObject&#10;&#10;Description&#10;     A simple asset for an abstract class;;d0,30;;b0,0;;m">

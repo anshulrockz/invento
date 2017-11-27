@@ -11,7 +11,7 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <span class="active">Products</span>
+                    <span class="active">Opening Stocks</span>
                 </li>
             </ul>
         </div>
@@ -20,10 +20,10 @@
                 <div class="portlet light bordered">
                     <div class="portlet-title">
 		                <div class="caption">
-		                    <span class="caption-subject font-blue-sharp bold uppercase">Products</span>
+		                    <span class="caption-subject font-blue-sharp bold uppercase">Opening Stocks</span>
 		                </div>
 		                <div class="actions">
-                            <a href="{{ url('/products/add') }}" class="btn btn-sm blue-sharp">
+                            <a href="{{ url('/opening-stocks/add') }}" class="btn btn-sm blue-sharp">
                                 <i class="fa fa-plus"></i> Add New
                             </a>
                         </div>
@@ -34,32 +34,34 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Name</th>
-                                    <th>Category</th>
-                                    <th>Brand</th>
-                                    <th>Manufacturer</th>
-                                    <th>Form</th>
-                                    <th>Price</th>
-                                    <th>Action</th>
+                                    <th>Item</th>
+                                    <th>Barcode</th>
+                                    <th>Expiry Date</th>
+                                    <th>Quantity</th>
+                                    <th>Cost</th>
+                                    <th>Amount</th>
+                                    <th>Date</th>
+                                    <th style="width: 400px">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>ATENOLOL</td>
-                                    <td>Medicine</td>
-                                    <td>ATECON</td>
-                                    <td>Rat1</td>
-                                    <td>TABLETS</td>
-                                    <td>1.2 USD</td>
+                                    <td>AMOXICILLIN</td>
+                                    <td>000002</td>
+                                    <td>01-March-2019</td>
+                                    <td>9000</td>
+                                    <td>2.80</td>
+                                    <td>25200.00</td>
+                                    <td>30-October-2017</td>
                                     <td>
-                                        <a href="{{ url('/products/view/1')}}" class="btn btn-sm btn-success">
+                                        <a href="{{ url('/opening-stocks/view/1')}}" class="btn btn-sm btn-success">
                                             <i class="fa fa-eye"></i> View
                                         </a>
-                                        <a href="{{ url('/products/edit/1')}}" class="btn btn-sm btn-info">
+                                        <a href="{{ url('/opening-stocks/edit/1')}}" class="btn btn-sm btn-info">
                                             <i class="fa fa-pencil"></i> Edit
                                         </a>
-                                        <a onclick="return confirm('Are you sure you want to Delete?');" href="{{ url('/products/delete/1')}}" class="btn btn-sm btn-danger">
+                                        <a onclick="return confirm('Are you sure you want to Delete?');" href="{{ url('/opening-stocks/delete/1')}}" class="btn btn-sm btn-danger">
                                             <i class="fa fa-trash"></i> Delete
                                         </a>
                                     </td>

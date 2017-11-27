@@ -11,7 +11,7 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <span class="active">Forms</span>
+                    <span class="active">Brands</span>
                 </li>
             </ul>
         </div>
@@ -20,10 +20,10 @@
                 <div class="portlet light bordered">
                     <div class="portlet-title">
 		                <div class="caption">
-		                    <span class="caption-subject font-blue-sharp bold uppercase">Forms</span>
+		                    <span class="caption-subject font-blue-sharp bold uppercase">Brands</span>
 		                </div>
 		                <div class="actions">
-                            <a href="{{ url('/forms/add') }}" class="btn btn-sm blue-sharp">
+                            <a href="{{ url('/brands/add') }}" class="btn btn-sm blue-sharp">
                                 <i class="fa fa-plus"></i> Add New
                             </a>
                         </div>
@@ -42,16 +42,16 @@
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                   	<td>TABLETS</td>
-                                    <td>TABLETS</td>
+                                    <td>AMOXYCON</td>
+                                    <td>AMOXYCON</td>
                                     <td>
-                                        <a href="{{ url('/forms/view/1')}}" class="btn btn-sm btn-success">
+                                        <a href="{{ url('/brands/view/1')}}" class="btn btn-sm btn-success">
                                             <i class="fa fa-eye"></i> View
                                         </a>
-                                        <a href="{{ url('/forms/edit/1')}}" class="btn btn-sm btn-info">
+                                        <a href="{{ url('/brands/edit/1')}}" class="btn btn-sm btn-info">
                                             <i class="fa fa-pencil"></i> Edit
                                         </a>
-                                        <a onclick="return confirm('Are you sure you want to Delete?');" href="{{ url('/forms/delete/1')}}" class="btn btn-sm btn-danger">
+                                        <a onclick="return confirm('Are you sure you want to Delete?');" href="{{ url('/brands/delete/1')}}" class="btn btn-sm btn-danger">
                                             <i class="fa fa-trash"></i> Delete
                                         </a>
                                     </td>

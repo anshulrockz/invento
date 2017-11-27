@@ -11,11 +11,11 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/units')}}">Units</a>
+                    <a href="{{url('/brands')}}">Brand</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <span class="active">MG</span>
+                    <span class="active">AMOXYCON</span>
                 </li>
             </ul>
         </div>
@@ -24,7 +24,7 @@
                 <div class="portlet light bordered">
                     <div class="portlet-title" style="margin-bottom: 0px">
 		                <div class="caption">
-		                    <span class="caption-subject font-blue-sharp bold uppercase">Mr. X</span>
+		                    <span class="caption-subject font-blue-sharp bold uppercase">AMOXYCON</span>
 		                </div>
 		            </div>
                     <div class="portlet-body table-responsive" style="padding-top: 0px">
@@ -32,11 +32,11 @@
 						  <tbody>
 						  	<tr>
 						      <th>Name</th>
-						      <td>MG</td>
+						      <td>AMOXYCON</td>
 						    </tr>
 						    <tr>
 						      <th>Description</th>
-						      <td>Milligram</td>
+						      <td>AMOXYCON</td>
 						    </tr>
 						  </tbody>
 						</table>

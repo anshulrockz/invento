@@ -11,11 +11,11 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/products')}}">Products</a>
+                    <a href="{{url('/forms')}}">Forms</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <span class="active">ATENOLOL</span>
+                    <span class="active">TABLETS</span>
                 </li>
             </ul>
         </div>
@@ -24,55 +24,19 @@
                 <div class="portlet light bordered">
                     <div class="portlet-title" style="margin-bottom: 0px">
 		                <div class="caption">
-		                    <span class="caption-subject font-blue-sharp bold uppercase">ATENOLOL</span>
+		                    <span class="caption-subject font-blue-sharp bold uppercase">TABLETS</span>
 		                </div>
 		            </div>
                     <div class="portlet-body table-responsive" style="padding-top: 0px">
                         <table class="table table-striped">
 						  <tbody>
 						  	<tr>
-						      <th>Generic Name</th>
-						      <td>ATENOLOL</td>
-						    </tr>
-						    <tr>
-						      <th>Category</th>
-						      <td>Medicine</td>
-						    </tr>
-						    <tr>
-						      <th>Price</th>
-						      <td>1.20</td>
-						    </tr>
-						    <tr>
-						      <th>Currency</th>
-						      <td>USD</td>
-						    </tr>
-						    <tr>
-						      <th>Strength</th>
-						      <td>50</td>
-						    </tr>
-						    <tr>
-						      <th>Unit</th>
-						      <td>MG</td>
-						    </tr>
-						    <tr>
-						      <th>Brand</th>
-						      <td>ATECON</td>
-						    </tr>
-						    <tr>
-						      <th>Manufacturer</th>
-						      <td>Rat1</td>
-						    </tr>
-						    <tr>
-						      <th>Form</th>
+						      <th>Name</th>
 						      <td>TABLETS</td>
 						    </tr>
 						    <tr>
-						      <th>Pack Size</th>
-						      <td>300</td>
-						    </tr>
-						    <tr>
-						      <th>Notify Quantity</th>
-						      <td>100</td>
+						      <th>Description</th>
+						      <td>TABLETS</td>
 						    </tr>
 						  </tbody>
 						</table>
