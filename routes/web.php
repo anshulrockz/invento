@@ -120,4 +120,22 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('/firms/view/{id}','FirmController@view');
 	Route::get('/firms/delete/{id}','FirmController@delete');
 	
+	//Terms & Conditions
+	Route::get('/terms','TermController@index');
+	Route::get('/terms/add','TermController@add');
+	Route::post('/terms/add','TermController@save');
+	Route::get('/terms/edit/{id}','TermController@edit');
+	Route::post('/terms/edit/{id}','TermController@update');
+	Route::get('/terms/view/{id}','TermController@view');
+	Route::get('/terms/delete/{id}','TermController@delete');
+	
+	//Bank Details
+	Route::get('/bank-details','BankController@index');
+	Route::get('/bank-details/add','BankController@add');
+	Route::post('/bank-details/add','BankController@save');
+	Route::get('/bank-details/edit/{id}','BankController@edit');
+	Route::post('/bank-details/edit/{id}','BankController@update');
+	Route::get('/bank-details/view/{id}','BankController@view');
+	Route::get('/bank-details/delete/{id}','BankController@delete');
+	
 });

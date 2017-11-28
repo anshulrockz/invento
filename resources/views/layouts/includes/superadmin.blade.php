@@ -70,7 +70,7 @@
                 </a>
             </li>
             <li class="nav-item  ">
-                <a href="{{ url('/terms-conditions') }}" class="nav-link ">
+                <a href="{{ url('/terms') }}" class="nav-link ">
                     <span class="title">Terms & Conditions</span>
                 </a>
             </li>
