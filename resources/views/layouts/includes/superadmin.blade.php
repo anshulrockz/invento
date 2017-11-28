@@ -57,6 +57,49 @@
 	        </li>
         </ul>
     </li>
+    <li class="nav-item ">
+        <a href="javascript:;" class="nav-link nav-toggle">
+            <i class="icon-bag"></i>
+            <span class="title">Firm</span>
+            <span class="arrow"></span>
+        </a>
+        <ul class="sub-menu">
+            <li class="nav-item  ">
+                <a href="{{ url('/firms') }}" class="nav-link ">
+                    <span class="title">Firm</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+                <a href="{{ url('/terms-conditions') }}" class="nav-link ">
+                    <span class="title">Terms & Conditions</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+	            <a href="{{ url('/bank-details') }}" class="nav-link ">
+	                <span class="title">Bank Details</span>
+	            </a>
+	        </li>
+        </ul>
+    </li>
+    <li class="nav-item ">
+        <a href="javascript:;" class="nav-link nav-toggle">
+            <i class="icon-bag"></i>
+            <span class="title">Accounts</span>
+            <span class="arrow"></span>
+        </a>
+        <ul class="sub-menu">
+            <li class="nav-item  ">
+                <a href="{{ url('/expenses') }}" class="nav-link ">
+                    <span class="title">Expenses</span>
+                </a>
+            </li>
+            <li class="nav-item  ">
+                <a href="{{ url('/incomes') }}" class="nav-link ">
+                    <span class="title">Income</span>
+                </a>
+            </li>
+        </ul>
+    </li>
     <li class="nav-item">
         <a href="{{url('/customers')}}" class="nav-link ">
             <i class="icon-users"></i>

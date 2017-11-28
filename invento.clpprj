@@ -2,7 +2,8 @@
 <project name="D:\xampp\htdocs\invento\invento.clpprj">
 	<settings><PM_URL><![CDATA[http://localhost/invento/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/invento/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
 		<file name="D:\xampp\htdocs\invento\routes\web.php"/>
-		<file name="D:\xampp\htdocs\invento\app\Http\Controllers\ManufacturerController.php"/>
+		<file name="D:\xampp\htdocs\invento\resources\views\firms\list.blade.php"/>
+		<file name="D:\xampp\htdocs\invento\resources\views\firms\add.blade.php"/>
 	</lastopfiles>
 	<errors version="5.11">
 		<errfile name="D:\xampp\htdocs\invento\vendor\webmozart\assert\src\Assert.php">

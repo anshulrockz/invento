@@ -111,4 +111,13 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('/opening-stocks/view/{id}','OpeningStockController@view');
 	Route::get('/opening-stocks/delete/{id}','OpeningStockController@delete');
 	
+	//Firms
+	Route::get('/firms','FirmController@index');
+	Route::get('/firms/add','FirmController@add');
+	Route::post('/firms/add','FirmController@save');
+	Route::get('/firms/edit/{id}','FirmController@edit');
+	Route::post('/firms/edit/{id}','FirmController@update');
+	Route::get('/firms/view/{id}','FirmController@view');
+	Route::get('/firms/delete/{id}','FirmController@delete');
+	
 });

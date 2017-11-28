@@ -41,7 +41,7 @@
                                     <th>Cost</th>
                                     <th>Amount</th>
                                     <th>Date</th>
-                                    <th style="width: 400px">Action</th>
+                                    <th style="width:400px;">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -54,7 +54,7 @@
                                     <td>2.80</td>
                                     <td>25200.00</td>
                                     <td>30-October-2017</td>
-                                    <td>
+                                    <td style="width:400px !important;">
                                         <a href="{{ url('/opening-stocks/view/1')}}" class="btn btn-sm btn-success">
                                             <i class="fa fa-eye"></i> View
                                         </a>
