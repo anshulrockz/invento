@@ -11,11 +11,11 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/customers')}}">Customers</a>
+                    <a href="{{url('/expenses')}}">Expenses</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/customers/view/1')}}">Mr. X</a>
+                    <a href="{{url('/expenses/view/1')}}">#1242</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
@@ -26,36 +26,79 @@
 		<div class="portlet light bordered">
             <div class="portlet-title">
                 <div class="caption">
-                    <span class="caption-subject font-blue-sharp bold uppercase">Edit Customer</span>
+                    <span class="caption-subject font-blue-sharp bold uppercase">Edit Expense</span>
                 </div>
             </div>
             <div class="portlet-body">
                 <div class="row">
-                	<div class="col-md-6">
+                	<div class="col-md-12">
                 		@include('flashmessage')
-                		<form method="post" action="">
+                		<form class="row" method="post" action="">
 	                        <div class="form-body">
 	                            {{ csrf_field() }}
-							    <div class="form-group">
-							      <label>*Name:</label>
-							      <input type="text" class="form-control" name="name" id="name" value="" placeholder="Please Enter Name" required="">
+							    <div class="form-group col-md-6">
+							      <label>Voucher no.</label>
+							      <input type="text" class="form-control" name="voucher_no" id="voucher_no" value="{{ old('voucher_no') }}" placeholder="Please Enter Voucher no." >
 							    </div>
-							    <div class="form-group">
-							      <label>*Email:</label>
-							      <input type="text" class="form-control" name="email" id="email" value="" placeholder="Please Enter Email" required="">
+							    <div class="form-group col-md-6">
+								 <label>*Voucher Date:</label>
+								 <div class="input-group date">
+								   <input type="text" name="voucher_date" id="voucher_date" value="{{ old('voucher_date') }}" placeholder="Please Enter Voucher Date" class="form-control" required=""><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+								 </div>
+								</div>
+							    <div class="form-group col-md-6">
+							      <label>Comment:</label>
+							      <input type="text" class="form-control" name="comment" id="comment" value="{{ old('comment') }}" placeholder="Please Enter Comment" >
 							    </div>
-							    <div class="form-group">
-							      <label>*Mobile:</label>
-							      <input type="number" class="form-control" name="mobile" id="mobile" value="" placeholder="Please Enter Mobile" required="">
+							    <div class="form-group col-md-6">
+							      <label>*Expense Account:</label>
+							      <select name="expense_account" id="expense_account" class="form-control">
+								     <option>Select</option>
+								     <option value="Danish">Danish</option>
+								 </select>
+								</div>
+							    <div class="form-group col-md-6">
+							      <label>*Expense Amount:</label>
+							      <input type="number" class="form-control" name="expense_amount" id="expense_amount" value="{{ old('expense_amount') }}" placeholder="Please Enter Expense Amount" required="">
 							    </div>
-							    <div class="form-group">
-							      <label>*Address:</label>
-							      <textarea class="form-control" name="address" id="address" placeholder="Please Enter Address" required=""></textarea>
+							    <div class="form-group col-md-6">
+							      <label>Comment:</label>
+							      <input type="text" class="form-control" name="comment" id="comment" value="{{ old('comment') }}" placeholder="Please Enter Comment" >
+							    </div>
+							    <div class="form-group col-md-6">
+							    	<label>*Paying Account:</label>
+								    <select name="paying_account" id="paying_account" class="form-control">
+									     <option>Select</option>
+									     <option value="Anshul">Anshul</option>
+									</select>
+								</div>
+							    <div class="form-group col-md-6">
+							      <label>*Paying Amount:</label>
+							      <input type="number" class="form-control" name="paying_amount" id="paying_amount" value="{{ old('paying_amount') }}" placeholder="Please Enter paying Amount" required="">
+							    </div>
+							    <div class="form-group col-md-6">
+							      <label>Comment:</label>
+							      <input type="text" class="form-control" name="comment" id="comment" value="{{ old('hsn') }}" placeholder="Please Enter Comment" >
+							    </div>
+							    <div class="form-group col-md-6">
+							    	<label>*RCM Nature:</label>
+								    <select name="rcm" id="rcm" class="form-control">
+									     <option>Select</option>
+									     <option value="Danish">RCM</option>
+									</select>
+								</div>
+							    <div class="form-group col-md-6">
+							      <label>Expense Amount:</label>
+							      <input type="number" class="form-control" name="expense_amount" id="expense_amount" value="{{ old('expense_amount') }}" placeholder="Expense Amount" disabled="disabled">
+							    </div>
+							    <div class="form-group col-md-6">
+							      <label>Paying Amount:</label>
+							      <input type="number" class="form-control" name="paying_amount" id="paying_amount" value="{{ old('paying_amount') }}" placeholder="Paying Amount" disabled="disabled">
 							    </div>
 	                        </div>
-	                        <div class="form-actions">
+	                        <div class="form-actions col-md-12">
 	                            <button type="submit" class="btn blue">Update</button>
-	                            <button type="button" class="btn default" onclick="location.href = '{{url('/customers')}}';">Cancel</button>
+	                            <button type="button" class="btn default" onclick="location.href = '{{url('/expenses')}}';">Cancel</button>
 	                        </div>
 	                    </form>
                 	</div>

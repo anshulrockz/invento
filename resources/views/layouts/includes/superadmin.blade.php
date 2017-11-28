@@ -88,6 +88,11 @@
             <span class="arrow"></span>
         </a>
         <ul class="sub-menu">
+        	<li class="nav-item  ">
+                <a href="{{ url('/accounts') }}" class="nav-link ">
+                    <span class="title">Accounts</span>
+                </a>
+            </li>
             <li class="nav-item  ">
                 <a href="{{ url('/expenses') }}" class="nav-link ">
                     <span class="title">Expenses</span>

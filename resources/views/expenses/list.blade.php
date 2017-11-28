@@ -11,7 +11,7 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <span class="active">Customers</span>
+                    <span class="active">Expenses</span>
                 </li>
             </ul>
         </div>
@@ -20,10 +20,10 @@
                 <div class="portlet light bordered">
                     <div class="portlet-title">
 		                <div class="caption">
-		                    <span class="caption-subject font-blue-sharp bold uppercase">Customers</span>
+		                    <span class="caption-subject font-blue-sharp bold uppercase">Expenses</span>
 		                </div>
 		                <div class="actions">
-                            <a href="{{ url('/customers/add') }}" class="btn btn-sm blue-sharp">
+                            <a href="{{ url('/expenses/add') }}" class="btn btn-sm blue-sharp">
                                 <i class="fa fa-plus"></i> Add New
                             </a>
                         </div>
@@ -34,10 +34,11 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Mobile</th>
-                                    <th>Address</th>
+                                    <th>Expense Account</th>
+                                    <th>Expense Amount</th>
+                                    <th>Paying Account</th>
+                                    <th>Paying Amount</th>
+                                    <th>Voucher Date</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -45,17 +46,18 @@
                                 <tr>
                                     <td>1</td>
                                     <td>Danish</td>
-                                    <td>danish@techstreet.in</td>
-                                    <td>9582287654</td>
-                                    <td>Noida,UP</td>
+                                    <td>20000</td>
+                                    <td>Anshul</td>
+                                    <td>20000</td>
+                                    <td>28-November-2017</td>
                                     <td>
-                                        <a href="{{ url('/customers/view/1')}}" class="btn btn-sm btn-success">
+                                        <a href="{{ url('/expenses/view/1')}}" class="btn btn-sm btn-success">
                                             <i class="fa fa-eye"></i> View
                                         </a>
-                                        <a href="{{ url('/customers/edit/1')}}" class="btn btn-sm btn-info">
+                                        <a href="{{ url('/expenses/edit/1')}}" class="btn btn-sm btn-info">
                                             <i class="fa fa-pencil"></i> Edit
                                         </a>
-                                        <a onclick="return confirm('Are you sure you want to Delete?');" href="{{ url('/customers/delete/1')}}" class="btn btn-sm btn-danger">
+                                        <a onclick="return confirm('Are you sure you want to Delete?');" href="{{ url('/expenses/delete/1')}}" class="btn btn-sm btn-danger">
                                             <i class="fa fa-trash"></i> Delete
                                         </a>
                                     </td>

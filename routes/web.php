@@ -138,4 +138,31 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('/bank-details/view/{id}','BankController@view');
 	Route::get('/bank-details/delete/{id}','BankController@delete');
 	
+	//Accounts
+	Route::get('/accounts','AccountController@index');
+	Route::get('/accounts/add','AccountController@add');
+	Route::post('/accounts/add','AccountController@save');
+	Route::get('/accounts/edit/{id}','AccountController@edit');
+	Route::post('/accounts/edit/{id}','AccountController@update');
+	Route::get('/accounts/view/{id}','AccountController@view');
+	Route::get('/accounts/delete/{id}','AccountController@delete');
+	
+	//Expenses
+	Route::get('/expenses','ExpenseController@index');
+	Route::get('/expenses/add','ExpenseController@add');
+	Route::post('/expenses/add','ExpenseController@save');
+	Route::get('/expenses/edit/{id}','ExpenseController@edit');
+	Route::post('/expenses/edit/{id}','ExpenseController@update');
+	Route::get('/expenses/view/{id}','ExpenseController@view');
+	Route::get('/expenses/delete/{id}','ExpenseController@delete');
+	
+	//Incomes
+	Route::get('/incomes','IncomeController@index');
+	Route::get('/incomes/add','IncomeController@add');
+	Route::post('/incomes/add','IncomeController@save');
+	Route::get('/incomes/edit/{id}','IncomeController@edit');
+	Route::post('/incomes/edit/{id}','IncomeController@update');
+	Route::get('/incomes/view/{id}','IncomeController@view');
+	Route::get('/incomes/delete/{id}','IncomeController@delete');
+	
 });

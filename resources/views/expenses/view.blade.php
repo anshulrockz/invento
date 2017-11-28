@@ -11,11 +11,11 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/customers')}}">Customers</a>
+                    <a href="{{url('/expenses')}}">Expenses</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <span class="active">Mr. X</span>
+                    <span class="active"></span>
                 </li>
             </ul>
         </div>
@@ -24,27 +24,50 @@
                 <div class="portlet light bordered">
                     <div class="portlet-title" style="margin-bottom: 0px">
 		                <div class="caption">
-		                    <span class="caption-subject font-blue-sharp bold uppercase">Mr. X</span>
+		                    <span class="caption-subject font-blue-sharp bold uppercase">#1242</span>
 		                </div>
 		            </div>
                     <div class="portlet-body table-responsive" style="padding-top: 0px">
                         <table class="table table-striped">
 						  <tbody>
 						  	<tr>
-						      <th>Name</th>
+						      <th>Voucher no.</th>
+						      <td>#1242</td>
+						    </tr>
+						    <tr>
+						      <th>Voucher Date</th>
+						      <td>28-November-2017</td>
+						    </tr>
+						    <tr>
+						      <th>Comment</th>
+						      <td>NA</td>
+						    </tr>
+						    <tr>
+						      <th>Expense Account</th>
 						      <td>Danish</td>
 						    </tr>
 						    <tr>
-						      <th>Email</th>
-						      <td>danish@techstreet.in</td>
+						      <th>Expense Amount</th>
+						      <td>20000</td>
+						    </tr><tr>
+						      <th>Comment</th>
+						      <td>NA</td>
 						    </tr>
 						    <tr>
-						      <th>Mobile</th>
-						      <td>9582287654</td>
+						      <th>Paying Account</th>
+						      <td>Anshul</td>
 						    </tr>
 						    <tr>
-						      <th>Address</th>
-						      <td>Noida, UP</td>
+						      <th>Paying Amount</th>
+						      <td>20000</td>
+						    </tr>
+						    <tr>
+						      <th>Comment</th>
+						      <td>NA</td>
+						    </tr>
+						    <tr>
+						      <th>RCM Nature</th>
+						      <td>RMC</td>
 						    </tr>
 						  </tbody>
 						</table>
