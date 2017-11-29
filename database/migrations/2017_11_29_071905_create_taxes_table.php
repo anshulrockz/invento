@@ -15,6 +15,14 @@ class CreateTaxesTable extends Migration
     {
         Schema::create('taxes', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name', 255);
+            $table->string('rate', 255);
+            $table->string('effective_from', 255);
+            $table->text('description');
+            $table->integer('updated_by');
+            $table->integer('created_by');
+            $table->tinyInteger('is_active');
+            $table->tinyInteger('status');
             $table->timestamps();
         });
     }

@@ -15,6 +15,22 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name', 255);
+            $table->string('category', 255);
+            $table->string('model', 255);
+            $table->string('form', 255);
+            $table->string('price', 255);
+            $table->string('currency', 255);
+            $table->string('strength', 255);
+            $table->string('unit', 255);
+            $table->string('brand', 255);
+            $table->string('manufacturer', 255);
+            $table->string('pack_size', 255);
+            $table->string('notify_quantity', 255);
+            $table->integer('updated_by');
+            $table->integer('created_by');
+            $table->tinyInteger('is_active');
+            $table->tinyInteger('status');
             $table->timestamps();
         });
     }

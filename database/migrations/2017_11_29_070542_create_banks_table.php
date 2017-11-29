@@ -15,6 +15,15 @@ class CreateBanksTable extends Migration
     {
         Schema::create('banks', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name', 255);
+            $table->string('gst', 255);
+            $table->string('hsn', 255);
+            $table->string('parent_acount_name', 255);
+            $table->string('itc', 255);
+            $table->integer('updated_by');
+            $table->integer('created_by');
+            $table->tinyInteger('is_active');
+            $table->tinyInteger('status');
             $table->timestamps();
         });
     }

@@ -15,6 +15,18 @@ class CreateOpeningstocksTable extends Migration
     {
         Schema::create('openingstocks', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('category', 255);
+            $table->string('item', 255);
+            $table->string('barcode', 255);
+            $table->date('expiry_date');
+            $table->string('quantity', 255);
+            $table->string('cost', 255);
+            $table->date('date');
+            $table->text('description');
+            $table->integer('updated_by');
+            $table->integer('created_by');
+            $table->tinyInteger('is_active');
+            $table->tinyInteger('status');
             $table->timestamps();
         });
     }
