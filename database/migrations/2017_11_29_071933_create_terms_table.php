@@ -16,11 +16,11 @@ class CreateTermsTable extends Migration
         Schema::create('terms', function (Blueprint $table) {
             $table->increments('id');
             $table->text('terms');
-            $table->integer('updated_by');
+            $table->timestamps();
             $table->integer('created_by');
+            $table->integer('updated_by');
             $table->tinyInteger('is_active');
             $table->tinyInteger('status');
-            $table->timestamps();
         });
     }
 

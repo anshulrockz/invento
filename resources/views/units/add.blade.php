@@ -29,12 +29,12 @@
                 <div class="row">
                 	<div class="col-md-6">
                 		@include('flashmessage')
-                		<form method="post" action="">
+                		<form method="post" action="{{route('units.store')}}">
 	                        <div class="form-body">
 	                            {{ csrf_field() }}
 							    <div class="form-group">
 							      <label>*Name:</label>
-							      <input type="text" class="form-control" name="name" id="name" value="{{ old('name') }}" placeholder="Please Enter Name" required="">
+							      <input type="text" class="form-control" name="name" id="name" value="{{ old('name') }}" placeholder="Please Enter Name" >
 							    </div>
 							    <div class="form-group">
 							      <label>Description:</label>

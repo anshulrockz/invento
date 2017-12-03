@@ -23,11 +23,11 @@ class CreateOpeningstocksTable extends Migration
             $table->string('cost', 255);
             $table->date('date');
             $table->text('description');
-            $table->integer('updated_by');
-            $table->integer('created_by');
-            $table->tinyInteger('is_active');
-            $table->tinyInteger('status');
             $table->timestamps();
+            $table->integer('created_by');
+            $table->integer('updated_by');
+            $table->tinyInteger('is_active');
+            $table->tinyInteger('deleted_at');
         });
     }
 

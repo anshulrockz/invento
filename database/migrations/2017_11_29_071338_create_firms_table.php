@@ -33,11 +33,11 @@ class CreateFirmsTable extends Migration
             $table->string('designation', 255);
             $table->string('contact_person', 255);
             $table->string('certified', 255);
-            $table->integer('updated_by');
-            $table->integer('created_by');
-            $table->tinyInteger('is_active');
-            $table->tinyInteger('status');
             $table->timestamps();
+            $table->integer('created_by');
+            $table->integer('updated_by');
+            $table->tinyInteger('is_active');
+            $table->tinyInteger('deleted_at');
         });
     }
 

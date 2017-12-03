@@ -19,11 +19,11 @@ class CreateCustomersTable extends Migration
             $table->string('email', 255);
             $table->string('mobile', 255);
             $table->text('address');
-            $table->integer('updated_by');
-            $table->integer('created_by');
-            $table->tinyInteger('is_active');
-            $table->tinyInteger('status');
             $table->timestamps();
+            $table->integer('created_by');
+            $table->integer('updated_by');
+            $table->tinyInteger('is_active');
+            $table->tinyInteger('deleted_at');
         });
     }
 

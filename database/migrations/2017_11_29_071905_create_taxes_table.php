@@ -19,11 +19,11 @@ class CreateTaxesTable extends Migration
             $table->string('rate', 255);
             $table->string('effective_from', 255);
             $table->text('description');
-            $table->integer('updated_by');
-            $table->integer('created_by');
-            $table->tinyInteger('is_active');
-            $table->tinyInteger('status');
             $table->timestamps();
+            $table->integer('created_by');
+            $table->integer('updated_by');
+            $table->tinyInteger('is_active');
+            $table->tinyInteger('deleted_at');
         });
     }
 

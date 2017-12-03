@@ -15,7 +15,7 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <span class="active">MG</span>
+                    <span class="active">{{ $unit->name }}</span>
                 </li>
             </ul>
         </div>
@@ -24,7 +24,7 @@
                 <div class="portlet light bordered">
                     <div class="portlet-title" style="margin-bottom: 0px">
 		                <div class="caption">
-		                    <span class="caption-subject font-blue-sharp bold uppercase">Mr. X</span>
+		                    <span class="caption-subject font-blue-sharp bold uppercase">{{ $unit->name }}</span>
 		                </div>
 		            </div>
                     <div class="portlet-body table-responsive" style="padding-top: 0px">
@@ -32,11 +32,11 @@
 						  <tbody>
 						  	<tr>
 						      <th>Name</th>
-						      <td>MG</td>
+						      <td>{{ $unit->name }}</td>
 						    </tr>
 						    <tr>
 						      <th>Description</th>
-						      <td>Milligram</td>
+						      <td>{{ $unit->description }}</td>
 						    </tr>
 						  </tbody>
 						</table>

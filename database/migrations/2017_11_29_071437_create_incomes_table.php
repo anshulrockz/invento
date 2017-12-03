@@ -24,11 +24,11 @@ class CreateIncomesTable extends Migration
             $table->string('income_from', 255);
             $table->string('income_from_amount', 255);
             $table->text('income_from_comment');
-            $table->integer('updated_by');
-            $table->integer('created_by');
-            $table->tinyInteger('is_active');
-            $table->tinyInteger('status');
             $table->timestamps();
+            $table->integer('created_by');
+            $table->integer('updated_by');
+            $table->tinyInteger('is_active');
+            $table->tinyInteger('deleted_at');
         });
     }
 

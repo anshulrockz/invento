@@ -31,138 +31,49 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('/logout','LoginController@logout');
 	
 	//Customers
-	Route::get('/customers','CustomerController@index');
-	Route::get('/customers/add','CustomerController@add');
-	Route::post('/customers/add','CustomerController@save');
-	Route::get('/customers/edit/{id}','CustomerController@edit');
-	Route::post('/customers/edit/{id}','CustomerController@update');
-	Route::get('/customers/view/{id}','CustomerController@view');
-	Route::get('/customers/delete/{id}','CustomerController@delete');
+	Route::resource('/customers','CustomerController');
 	
 	//Products
-	Route::get('/products','ProductController@index');
-	Route::get('/products/add','ProductController@add');
-	Route::post('/products/add','ProductController@save');
-	Route::get('/products/edit/{id}','ProductController@edit');
-	Route::post('/products/edit/{id}','ProductController@update');
-	Route::get('/products/view/{id}','ProductController@view');
-	Route::get('/products/delete/{id}','ProductController@delete');
+	Route::resource('/products','ProductController');
 	
 	//Categories
-	Route::get('/categories','CategoryController@index');
-	Route::get('/categories/add','CategoryController@add');
-	Route::post('/categories/add','CategoryController@save');
-	Route::get('/categories/edit/{id}','CategoryController@edit');
-	Route::post('/categories/edit/{id}','CategoryController@update');
-	Route::get('/categories/view/{id}','CategoryController@view');
-	Route::get('/categories/delete/{id}','CategoryController@delete');
+	Route::resource('/categories','CategoryController');
 	
 	//Brands
-	Route::get('/brands','BrandController@index');
-	Route::get('/brands/add','BrandController@add');
-	Route::post('/brands/add','BrandController@save');
-	Route::get('/brands/edit/{id}','BrandController@edit');
-	Route::post('/brands/edit/{id}','BrandController@update');
-	Route::get('/brands/view/{id}','BrandController@view');
-	Route::get('/brands/delete/{id}','BrandController@delete');
+	Route::resource('/brands','BrandController');
 	
 	//Manufacturers
-	Route::get('/manufacturers','ManufacturerController@index');
-	Route::get('/manufacturers/add','ManufacturerController@add');
-	Route::post('/manufacturers/add','ManufacturerController@save');
-	Route::get('/manufacturers/edit/{id}','ManufacturerController@edit');
-	Route::post('/manufacturers/edit/{id}','ManufacturerController@update');
-	Route::get('/manufacturers/view/{id}','ManufacturerController@view');
-	Route::get('/manufacturers/delete/{id}','ManufacturerController@delete');
+	Route::resource('/manufacturers','ManufacturerController');
 	
 	//Forms
-	Route::get('/forms','FormController@index');
-	Route::get('/forms/add','FormController@add');
-	Route::post('/forms/add','FormController@save');
-	Route::get('/forms/edit/{id}','FormController@edit');
-	Route::post('/forms/edit/{id}','FormController@update');
-	Route::get('/forms/view/{id}','FormController@view');
-	Route::get('/forms/delete/{id}','FormController@delete');
+	Route::resource('/forms','FormController');
 	
 	//Units
-	Route::get('/units','UnitController@index');
-	Route::get('/units/add','UnitController@add');
-	Route::post('/units/add','UnitController@save');
-	Route::get('/units/edit/{id}','UnitController@edit');
-	Route::post('/units/edit/{id}','UnitController@update');
-	Route::get('/units/view/{id}','UnitController@view');
-	Route::get('/units/delete/{id}','UnitController@delete');
+	Route::resource('/units','UnitController');
 	
 	//Taxes
-	Route::get('/taxes','TaxController@index');
-	Route::get('/taxes/add','TaxController@add');
-	Route::post('/taxes/add','TaxController@save');
-	Route::get('/taxes/edit/{id}','TaxController@edit');
-	Route::post('/taxes/edit/{id}','TaxController@update');
-	Route::get('/taxes/view/{id}','TaxController@view');
-	Route::get('/taxes/delete/{id}','TaxController@delete');
+	Route::resource('/taxes','TaxController');
 	
 	//Opening Stocks
-	Route::get('/opening-stocks','OpeningStockController@index');
-	Route::get('/opening-stocks/add','OpeningStockController@add');
-	Route::post('/opening-stocks/add','OpeningStockController@save');
-	Route::get('/opening-stocks/edit/{id}','OpeningStockController@edit');
-	Route::post('/opening-stocks/edit/{id}','OpeningStockController@update');
-	Route::get('/opening-stocks/view/{id}','OpeningStockController@view');
-	Route::get('/opening-stocks/delete/{id}','OpeningStockController@delete');
-	
+	Route::resource('/opening-stocks','OpeningStockController');
+		
 	//Firms
-	Route::get('/firms','FirmController@index');
-	Route::get('/firms/add','FirmController@add');
-	Route::post('/firms/add','FirmController@save');
-	Route::get('/firms/edit/{id}','FirmController@edit');
-	Route::post('/firms/edit/{id}','FirmController@update');
-	Route::get('/firms/view/{id}','FirmController@view');
-	Route::get('/firms/delete/{id}','FirmController@delete');
+	Route::resource('/firms','FirmController');
 	
 	//Terms & Conditions
-	Route::get('/terms','TermController@index');
-	Route::get('/terms/add','TermController@add');
-	Route::post('/terms/add','TermController@save');
-	Route::get('/terms/edit/{id}','TermController@edit');
-	Route::post('/terms/edit/{id}','TermController@update');
-	Route::get('/terms/view/{id}','TermController@view');
-	Route::get('/terms/delete/{id}','TermController@delete');
+	Route::resource('/terms','TermController');
 	
 	//Bank Details
-	Route::get('/bank-details','BankController@index');
-	Route::get('/bank-details/add','BankController@add');
-	Route::post('/bank-details/add','BankController@save');
-	Route::get('/bank-details/edit/{id}','BankController@edit');
-	Route::post('/bank-details/edit/{id}','BankController@update');
-	Route::get('/bank-details/view/{id}','BankController@view');
-	Route::get('/bank-details/delete/{id}','BankController@delete');
+	Route::resource('/bank-details','BankController');
 	
 	//Accounts
-	Route::get('/accounts','AccountController@index');
-	Route::get('/accounts/add','AccountController@add');
-	Route::post('/accounts/add','AccountController@save');
-	Route::get('/accounts/edit/{id}','AccountController@edit');
-	Route::post('/accounts/edit/{id}','AccountController@update');
-	Route::get('/accounts/view/{id}','AccountController@view');
-	Route::get('/accounts/delete/{id}','AccountController@delete');
+	Route::resource('/accounts','AccountController');
 	
 	//Expenses
-	Route::get('/expenses','ExpenseController@index');
-	Route::get('/expenses/add','ExpenseController@add');
-	Route::post('/expenses/add','ExpenseController@save');
-	Route::get('/expenses/edit/{id}','ExpenseController@edit');
-	Route::post('/expenses/edit/{id}','ExpenseController@update');
-	Route::get('/expenses/view/{id}','ExpenseController@view');
-	Route::get('/expenses/delete/{id}','ExpenseController@delete');
+	Route::resource('/expenses','ExpenseController');
 	
 	//Incomes
-	Route::get('/incomes','IncomeController@index');
-	Route::get('/incomes/add','IncomeController@add');
-	Route::post('/incomes/add','IncomeController@save');
-	Route::get('/incomes/edit/{id}','IncomeController@edit');
-	Route::post('/incomes/edit/{id}','IncomeController@update');
-	Route::get('/incomes/view/{id}','IncomeController@view');
-	Route::get('/incomes/delete/{id}','IncomeController@delete');
+	Route::resource('/incomes','IncomeController');
+	
 	
 });

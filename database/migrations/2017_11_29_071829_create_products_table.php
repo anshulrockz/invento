@@ -27,11 +27,11 @@ class CreateProductsTable extends Migration
             $table->string('manufacturer', 255);
             $table->string('pack_size', 255);
             $table->string('notify_quantity', 255);
-            $table->integer('updated_by');
-            $table->integer('created_by');
-            $table->tinyInteger('is_active');
-            $table->tinyInteger('status');
             $table->timestamps();
+            $table->integer('created_by');
+            $table->integer('updated_by');
+            $table->tinyInteger('is_active');
+            $table->tinyInteger('deleted_at');
         });
     }
 

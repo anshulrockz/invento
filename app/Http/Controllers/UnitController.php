@@ -10,36 +10,86 @@ use App\Unit;
 
 class UnitController extends Controller
 {
-    public function __construct()
-    {
-		$this->unit = new Unit();
-    }
     public function index()
     {
-		return view('units/list');
+    	//$unit= $this->unit::where('status', 1)->orderby('id','asc')->get();
+    	//return view('units/list', ['unit' => $unit])
+    	$unit= Unit::all();
+		return view('units.list')->with('unit',$unit);
     }
-    public function add()
+    
+    public function create()
     {
-		return view('units/add');
+		return view('units.add');
     }
-    public function save(Request $request)
+    
+    public function store(Request $request)
     {
-		return redirect()->back();
+    	$this->validate($request, [
+        	'name'=>'required'
+        ]);
+    	
+    	$unit=new Unit;
+    	$unit->name=$request->name ;					//Alternate:- input('name')
+    	$unit->description=$request->description;
+    	$unit->created_by=Auth::id();
+    	$unit->updated_by=Auth::id();
+    	$unit->is_active=1;
+    	$result= $unit->save();
+    	
+    	//Get last inserted id.
+    	//echo $insertedId = $unit->id;
+		
+		if($result){
+			return back()->with('success', 'Record added successfully!');
+		}
+		else{
+			return back()->with('error', 'Something went wrong!');
+		}
     }
-    public function view($id)
+    
+    public function show($id)
     {
-		return view('units/view');
+    	$unit = Unit::find($id);
+		return view('units.view')->with('unit',$unit);
     }
+    
     public function edit($id)
     {
-		return view('units/edit');
+    	$unit = Unit::find($id);
+		return view('units/edit')->with('unit',$unit);;
     }
+    
     public function update(Request $request,$id)
     {
-		return redirect()->back();
+    	$this->validate($request, [
+        	'name'=>'required',
+        ]);
+        
+    	$unit = Unit::find($id);
+    	$unit->name=$request->name;					//Alternate:- input('name')
+    	$unit->description=$request->description;
+    	$unit->updated_by=Auth::id();
+    	$result = $unit->save();
+    	
+		if($result){
+			return back()->with('success', 'Record updated successfully!');
+		}
+		else{
+			return back()->with('error', 'Something went wrong!');
+		}
     }
-    public function delete($id)
+    
+    public function destroy($id)
     {
-		return redirect()->back();
+    	//Unit::destroy($id);
+    	$result = Unit::find($id)->delete();
+        
+		if($result){
+			return back()->with('success','Record deleted successfully!');
+		}
+		else{
+			return back()->with('error','Something went wrong!');
+		}
     }
 }

@@ -15,7 +15,7 @@
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <a href="{{url('/units/view/1')}}">MG</a>
+                    <a href="{{url('/units/1')}}">{{ $unit->name }}</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
@@ -33,16 +33,17 @@
                 <div class="row">
                 	<div class="col-md-6">
                 		@include('flashmessage')
-                		<form method="post" action="">
+                		<form method="post" action="{{route('units.update',$unit->id)}}">
 	                        <div class="form-body">
 	                            {{ csrf_field() }}
+	                            {{ method_field('PUT') }}
 							    <div class="form-group">
 							      <label>*Name:</label>
-							      <input type="text" class="form-control" name="name" id="name" value="" placeholder="Please Enter Name" required="">
+							      <input type="text" class="form-control" name="name" id="name" value="{{ $unit->name }}" placeholder="Please Enter Name" required="">
 							    </div>
 							    <div class="form-group">
 							      <label>Description:</label>
-							      <textarea class="form-control" name="description" id="description" placeholder="Please Enter Description"></textarea>
+							      <textarea class="form-control" name="description" id="description" placeholder="Please Enter Description">{{ $unit->description }}</textarea>
 							    </div>
 	                        </div>
 	                        <div class="form-actions">

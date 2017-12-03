@@ -24,11 +24,11 @@ class CreateExpensesTable extends Migration
             $table->string('paying_account', 255);
             $table->string('paying_amount', 255);
             $table->text('paying_comment');
-            $table->integer('updated_by');
-            $table->integer('created_by');
-            $table->tinyInteger('is_active');
-            $table->tinyInteger('status');
             $table->timestamps();
+            $table->integer('created_by');
+            $table->integer('updated_by');
+            $table->tinyInteger('is_active');
+            $table->tinyInteger('deleted_at');
         });
     }
 
