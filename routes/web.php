@@ -31,7 +31,13 @@ Route::group(['middleware' => 'auth'], function () {
 	Route::get('/logout','LoginController@logout');
 	
 	//Customers
-	Route::resource('/customers','CustomerController');
+	Route::get('/customers','CustomerController@index');
+	Route::get('/customers/add','CustomerController@add');
+	Route::post('/customers/add','CustomerController@save');
+	Route::get('/customers/edit/{id}','CustomerController@edit');
+	Route::post('/customers/edit/{id}','CustomerController@update');
+	Route::get('/customers/view/{id}','CustomerController@view');
+	Route::get('/customers/delete/{id}','CustomerController@delete');
 	
 	//Products
 	Route::resource('/products','ProductController');
