@@ -18,7 +18,7 @@ class ProductController extends Controller
     {
 		return view('products/list');
     }
-    public function add()
+    public function create()
     {
 		return view('products/add');
     }

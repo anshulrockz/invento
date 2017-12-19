@@ -18,7 +18,7 @@ class BankController extends Controller
     {
 		return view('banks/list');
     }
-    public function add()
+    public function show()
     {
 		return view('banks/add');
     }

@@ -40,7 +40,7 @@
 							      <label>*GST %:</label>
 							      <select name="gst" id="gst" class="form-control">
 								     <option>Select</option>
-								     <option value="5">5</option>
+								     <option value="4">4</option>
 								     <option value="12">12</option>
 								     <option value="18">18</option>
 								     <option value="24">24</option>

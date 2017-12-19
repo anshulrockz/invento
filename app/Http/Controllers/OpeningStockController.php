@@ -18,7 +18,7 @@ class OpeningStockController extends Controller
     {
 		return view('openingstocks/list');
     }
-    public function add()
+    public function show()
     {
 		return view('openingstocks/add');
     }

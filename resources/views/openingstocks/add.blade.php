@@ -33,32 +33,32 @@
 	                        <div class="form-body">
 	                            {{ csrf_field() }}
 	                            <div class="form-group">
-								 <label>*Category:</label>
-								 <select name="category" id="category" class="form-control">
-								     <option>Select</option>
-								     <option value="Medicine">Medicine</option>
-								 </select>
+									<label>*Category:</label>
+									<select name="category" id="category" class="form-control">
+										<option>Select</option>
+										<option value="Medicine">Medicine</option>
+									</select>
 								</div>
 								<div class="form-group">
-								 <label>*Item:</label>
-								 <select name="item" id="item" class="form-control">
-								     <option>Select</option>
-								     <option value="amoxicillin">AMOXICILLIN</option>
-								 </select>
+									<label>*Product:</label>
+									<select name="item" id="item" class="form-control">
+										<option>Select</option>
+										<option value="amoxicillin">AMOXICILLIN</option>
+									</select>
 								</div>
 							    <div class="form-group">
-							      <label>Barcode:</label>
-							      <input type="text" class="form-control" name="barcode" id="barcode" value="{{ old('barcode') }}" placeholder="Please Enter Barcode" >
+									<label>Barcode:</label>
+									<input type="text" class="form-control" name="barcode" id="barcode" value="{{ old('barcode') }}" placeholder="Please Enter Barcode" >
 							    </div>
 							    <div class="form-group">
-								 <label>*Expiry Date:</label>
-								 <div class="input-group date">
-								   <input type="text" name="expiry_date" id="expiry_date" value="{{ old('expiry_date') }}" placeholder="Please Enter Expiry Date" class="form-control" required=""><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-								 </div>
+									<label>*Expiry Date:</label>
+									<div class="input-group date">
+										<input type="text" name="expiry_date" id="expiry_date" value="{{ old('expiry_date') }}" placeholder="Please Enter Expiry Date" class="form-control" required=""><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+									</div>
 								</div>
 							    <div class="form-group">
-							      <label>*Quantity:</label>
-							      <input type="number" class="form-control" name="quantity" id="quantity" value="{{ old('quantity') }}" placeholder="Please Enter Quantity" required="">
+									<label>*Quantity:</label>
+									<input type="number" class="form-control" name="quantity" id="quantity" value="{{ old('quantity') }}" placeholder="Please Enter Quantity" required="">
 							    </div>
 							    <div class="form-group">
 							      <label>*Cost:</label>
@@ -71,7 +71,7 @@
 								 </div>
 								</div>
 	                        </div>
-	                        <div class="form-actions">
+	                        <div class="row form-actions">
 	                            <button type="submit" class="btn blue">Save</button>
 	                            <button type="button" class="btn default" onclick="location.href = '{{url('/opening-stocks')}}';">Cancel</button>
 	                        </div>
@@ -81,7 +81,6 @@
             </div>
 	    </div>
     </div>
-    <!-- END CONTENT BODY -->
 </div>
 <!-- END CONTENT -->
 <script type='text/javascript'>

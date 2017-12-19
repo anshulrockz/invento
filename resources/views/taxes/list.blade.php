@@ -23,7 +23,7 @@
 		                    <span class="caption-subject font-blue-sharp bold uppercase">Taxes</span>
 		                </div>
 		                <div class="actions">
-                            <a href="{{ url('/taxes/add') }}" class="btn btn-sm blue-sharp">
+                            <a href="{{ url('/taxes/create') }}" class="btn btn-sm blue-sharp">
                                 <i class="fa fa-plus"></i> Add New
                             </a>
                         </div>

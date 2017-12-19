@@ -18,7 +18,7 @@ class TaxController extends Controller
     {
 		return view('taxes/list');
     }
-    public function add()
+    public function create()
     {
 		return view('taxes/add');
     }

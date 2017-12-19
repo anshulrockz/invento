@@ -18,7 +18,7 @@ class AccountController extends Controller
     {
 		return view('accounts/list');
     }
-    public function add()
+    public function show()
     {
 		return view('accounts/add');
     }

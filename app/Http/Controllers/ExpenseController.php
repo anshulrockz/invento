@@ -18,7 +18,7 @@ class ExpenseController extends Controller
     {
 		return view('expenses/list');
     }
-    public function add()
+    public function show()
     {
 		return view('expenses/add');
     }

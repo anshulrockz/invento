@@ -18,7 +18,7 @@ class FirmController extends Controller
     {
 		return view('firms/list');
     }
-    public function add()
+    public function show()
     {
 		return view('firms/add');
     }
